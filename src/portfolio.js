@@ -1,159 +1,53 @@
+// Updated portfolio configuration based on Sakshi Chaudhary's Product Management resume and cover letter
+
 import emoji from "react-easy-emoji";
 import IU_logo from "./assets/images/IU_logo.png";
-import gulogo from "./assets/images/gulogo.png";
 import school from "./assets/images/school.jpg";
-import knime from "./assets/images/knime.png";
-import Shaadi from "./assets/images/Shaadi.png";
-import infosys from "./assets/images/infosys.png";
-import tfb from "./assets/images/tfb.jpeg";
-import mirai from "./assets/images/mirai.webp";
-import hindcon from "./assets/images/hindcon.png";
-import Rockstar from "./assets/images/Rockstar.png";
-import medal from "./assets/images/medal.jpg";
-import digitalocean from "./assets/images/digitalocean.png";
-import ibm from "./assets/images/ibm.png";
 
 const illustration = {
   animated: true,
 };
 
 const greeting = {
-  username: "Anmol Agarwal",
-  title: "Hi all, I'm Anmol",
+  username: "Sakshi Chaudhary",
+  title: "Hi all, I'm Sakshi 👋",
   subTitle: emoji(
-    "A passionate individual who always thrive to work on end to end products 🚀 which develop sustainable and scalable social and technical systems to create impact.  "
+    "A results-driven Product Manager with 3+ years of experience in B2B SaaS, strategy, experimentation, and full product lifecycle ownership. Passionate about building customer-centric digital products that drive business value and delight users. 🚀"
   ),
-  resumeLink:
-    "https://drive.google.com/drive/folders/18Z2EjozJsjy1OQeT0vLaCkhOFY0AYgsM?usp=sharing",
-  repoLink: "https://github.com/fineanmol/fineanmol.github.io",
+  resumeLink: "https://drive.google.com/drive/folders/18Z2EjozJsjy1OQeT0vLaCkhOFY0AYgsM?usp=sharing",
+  repoLink: "#",
   displayGreeting: true,
 };
 
 const socialMediaLinks = {
-  github: "https://github.com/fineanmol",
-  linkedin: "https://www.linkedin.com/in/fineanmol/",
-  gmail: "anmol.agarwal2004@yahoo.com",
-  instagram: "http://instagram.com/fineanmol",
+  linkedin: "https://www.linkedin.com/in/fabsakshi",
+  gmail: "ch.sakshiasb@gmail.com",
   display: true,
 };
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "Enthusiastic Frontend Engineer",
+  title: "What I Do",
+  subTitle: "Product Manager | Strategy | Analytics | Experimentation",
   skills: [
-    emoji(
-      "⚡ Develop interactive front-end interfaces using React, Vue.js, and TypeScript"
-    ),
-    emoji(
-      "⚡ Optimize performance and bundle size for enterprise-scale applications"
-    ),
-    emoji(
-      "⚡ Write reusable, modular components with Tailwind CSS, Material UI, and custom design systems"
-    ),
-    emoji(
-      "⚡ Integrate RESTful & GraphQL APIs, ensuring robust data flow and state management (Redux, Vuex)"
-    ),
-    emoji(
-      "⚡ Build and maintain CI/CD pipelines (GitLab CI, Docker) for rapid deployment"
-    ),
+    emoji("⚡ Translate customer insights & business needs into product roadmaps, PRDs, and actionable backlogs"),
+    emoji("⚡ Drive end-to-end product lifecycle: discovery → MVP → launch → iteration → scale"),
+    emoji("⚡ Lead A/B testing, experimentation, funnel analysis & KPI-driven decisions (Optimizely, GA, Firebase)"),
+    emoji("⚡ Partner cross-functionally with engineering, design, sales, operations, and marketing to execute product vision"),
+    emoji("⚡ Conduct competitive research, price benchmarking, customer journey mapping & market opportunity analysis"),
   ],
 
   softwareSkills: [
-    {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5",
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt",
-    },
-    {
-      skillName: "Tailwind CSS",
-      fontAwesomeClassname: "fas fa-paint-brush",
-    },
-    {
-      skillName: "Sass",
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js",
-      style: {
-        hover: "#F7DF1E",
-      },
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js",
-      style: {
-        hover: "#3178C6",
-      },
-    },
-    {
-      skillName: "React.js",
-      fontAwesomeClassname: "fab fa-react",
-    },
-    {
-      skillName: "Vue.js",
-      fontAwesomeClassname: "fab fa-vuejs",
-    },
-    {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node-js",
-    },
-
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker",
-    },
-    {
-      skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws",
-    },
-    {
-      skillName: "GCP",
-      fontAwesomeClassname: "fab fa-google",
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "NoSQL",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git",
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      skillName: "JIRA",
-      fontAwesomeClassname: "fab fa-jira",
-    },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux",
-    },
-    {
-      skillName: "Android",
-      fontAwesomeClassname: "fab fa-android",
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire",
-    },
-    {
-      skillName: "KNIME",
-      fontAwesomeClassname: "fas fa-flask",
-    },
+    { skillName: "Product Strategy", fontAwesomeClassname: "fas fa-lightbulb" },
+    { skillName: "Agile / Scrum", fontAwesomeClassname: "fas fa-sync" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Figma", fontAwesomeClassname: "fas fa-pencil-ruler" },
+    { skillName: "JIRA", fontAwesomeClassname: "fab fa-jira" },
+    { skillName: "Confluence", fontAwesomeClassname: "fas fa-file-alt" },
+    { skillName: "Google Analytics", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "A/B Testing", fontAwesomeClassname: "fas fa-flask" },
+    { skillName: "Wireframing", fontAwesomeClassname: "fas fa-drafting-compass" },
+    { skillName: "Backlog Mgmt.", fontAwesomeClassname: "fas fa-tasks" }
   ],
   display: true,
 };
@@ -162,355 +56,134 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "IU University of Applied Sciences, Berlin, Germany",
+      schoolName: "IU International University of Applied Sciences, Berlin, Germany",
       logo: IU_logo,
-      subHeader: emoji("Master of Science in Data Science"),
-      duration: "April 2024 – May 2025",
-      desc: "Specializing in advanced machine learning, full-stack web development, and enterprise-scale data engineering solutions.",
+      subHeader: emoji("Masters in International Management (Specialization: Product Management & Strategy)"),
+      duration: "April 2024 – September 2025",
+      desc: "Specialization in Product Management, Strategy, Product Development, Business Intelligence, and Design Thinking.",
       descBullets: [
-        "Architecting production-ready MERN stack applications integrated with TensorFlow.js for real-time ML inference, serving 10K+ concurrent users.",
-        "Developing scalable data pipelines using Node.js, Express.js, MongoDB, and React.js for big data analytics platforms on AWS and GCP.",
-        "Implementing advanced deep learning models (CNNs, RNNs, Transformers) with Python, PyTorch, and TensorFlow for computer vision projects.",
-        "Leading cross-functional team projects applying DevOps practices with Docker, Kubernetes, CI/CD, and microservices architecture patterns.",
-        "Conducting research on AI-driven web optimization techniques, achieving 40% performance improvements in React applications with ML-powered caching.",
+        "Studied product development frameworks, market strategies, negotiation, and digital transformation.",
+        "Applied design thinking & cross-functional collaboration through industry-led case studies.",
       ],
     },
     {
-      schoolName: "Galgotias University, Delhi, India",
-      logo: gulogo,
-      subHeader: emoji(
-        "Bachelor of Technology in Computer Science (🥉 Medalist)"
-      ),
-      duration: "September 2015 – August 2019",
-      desc: "",
-      descBullets: [
-        "Graduated in the top 1% of my class, awarded Bronze Medal for academic excellence.",
-        "Organized and led two university hackathons, mentoring 100+ participants in full-stack development.",
-        "Completed coursework in Software Engineering, Web Security, Operating Systems, and Data Structures.",
-        'Developed a campus-wide "Smart Attendance System" using ASP.NET and MS SQL, reducing manual attendance effort by 80%.',
-        "Conducted research on Advanced Threat Detection Systems, contributing to improved security protocols.",
-      ],
-    },
-    {
-      schoolName: "Saraswati Vidya Mandir, India",
+      schoolName: "Chaudhary Charan Singh University | Asian School of Business, Noida, India",
       logo: school,
-      subHeader: "Senior Secondary School",
-      duration: "March 2014 – April 2015",
-      desc: "",
+      subHeader: "Bachelor of Business Administration",
+      duration: "August 2018 – July 2021",
+      desc: "Focused on economics, financial management, strategic management, and information technology.",
       descBullets: [
-        "Achieved 90% marks across Mathematics, Physics, and Chemistry, demonstrating strong analytical and problem-solving skills.",
-        "Excelled in advanced mathematics and physics coursework, building foundation for computer science and engineering concepts.",
-        "Participated in regional science fairs and won 2nd place for innovative physics project on renewable energy solutions.",
-        "Developed programming fundamentals through self-learning C++ and basic web development during final year.",
-        "Maintained consistent academic performance while actively participating in extracurricular activities and STEM competitions.",
+        "Learned principles of business analysis, decision-making, and organizational strategy.",
+        "Developed foundation for product thinking through IT and change management coursework.",
       ],
     },
   ],
-};
-
-const techStack = {
-  viewSkillBars: true,
-  experience: [
-    {
-      Stack: "Frontend/Design",
-      progressPercentage: "85%",
-    },
-    {
-      Stack: "Backend & APIs",
-      progressPercentage: "80%",
-    },
-  ],
-  displayCodersrank: false,
 };
 
 const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Frontend Developer",
-      company: "KNIME (Berlin, Germany)",
-      companylogo: knime,
-      date: "April 2024 – Present",
-      desc: "",
+      role: "Product Manager | B2B SaaS",
+      company: "SVAM International Inc.",
+      companylogo: "",
+      date: "March 2023 – March 2024",
       descBullets: [
-        "Develop and maintain core frontend components for KNIME Analytics Platform's web documentation using Vue.js, TypeScript, and Tailwind CSS.",
-        "Refactored legacy UI modules to improve performance by 30% and reduce bundle size using Vite.js and tree-shaking.",
-        "Implemented comprehensive testing strategy with Vitest achieving 95% unit test coverage for context menus and dynamic layouts.",
-        "Integrated XSS protection via DOMPurify for workflow editors, ensuring type safety and security in enterprise-grade applications.",
-        "Collaborate with UX designers to deliver responsive, accessible interfaces, improving user satisfaction scores by 20%.",
+        "Accelerated SaaS product delivery timelines by 28% through structured backlog management.",
+        "Defined product features, PRDs, acceptance criteria, use cases & API specs for engineering.",
+        "Led release planning, product demos, stakeholder management & sprint planning.",
+        "Worked cross-functionally with engineering, design, sales, and operations to drive roadmap execution.",
       ],
     },
     {
-      role: "Software Engineer II",
-      company: "Shaadi.com (Mumbai, India)",
-      companylogo: Shaadi,
-      date: "March 2022 – March 2024",
-      desc: "",
+      role: "Associate Product Manager | B2B SaaS",
+      company: "SVAM International Inc.",
+      companylogo: "",
+      date: "Feb 2022 – March 2023",
       descBullets: [
-        "Led migration of legacy codebase to TypeScript + React.js/Next.js, reducing critical bugs by 40%.",
-        "Designed and implemented custom React Hooks and Redux workflows for state management in large-scale matrimonial platform.",
-        "Optimized page load performance (LCP < 2s) across key user journeys using code-splitting and lazy loading.",
-        "Built A/B testing framework using Google Optimize to measure feature impact—improved user engagement by 15%.",
-        "Mentored a team of 3 junior developers on best practices in frontend architecture, component testing, and CI/CD pipelines.",
+        "Conducted in-depth market research & competitive analysis opening 11+ new feature opportunities.",
+        "Prioritized features based on usability, customer value, and ROI to strengthen growth.",
+        "Supported product strategy development, documentation & category expansion initiatives.",
       ],
     },
     {
-      role: "Senior Systems Engineer",
-      company: "Infosys Ltd. (Bangalore, India)",
-      companylogo: infosys,
-      date: "September 2019 – March 2022",
-      desc: "",
+      role: "Market Research Intern | B2B SaaS",
+      company: "SVAM International Inc.",
+      companylogo: "",
+      date: "Nov 2021 – Feb 2022",
       descBullets: [
-        "Worked in an Agile SCRUM team to design and develop client/server web applications using React.js, Node.js, and Java Spring Boot.",
-        "Refactored monolithic modules into microservices architecture—reduced average response time by 25% and improved horizontal scalability.",
-        "Performed code reviews, pair programming, and static code analysis, ensuring 100% adherence to ESLint and SonarQube standards.",
-        "Integrated RESTful APIs for banking clients, handling 1M+ transactions daily with 99.9% uptime SLA.",
-        "Led sprint planning and delivery for enterprise banking solutions, consistently meeting project deadlines with zero production incidents.",
+        "Converted customer insights & market trends into actionable product requirements.",
+        "Developed sales enablement materials (datasheets, presentations) using CMS platforms.",
       ],
     },
     {
-      role: "SDE Intern",
-      company: "Infosys Ltd. (Bangalore, India)",
-      companylogo: infosys,
-      date: "January 2019 – May 2019",
-      desc: "",
+      role: "Product Management Intern | B2B Fintech",
+      company: "Dion Global Solutions Ltd.",
+      companylogo: "",
+      date: "June 2019 – August 2020",
       descBullets: [
-        "Completed intensive 24-week Full-Stack Developer training program in ASP.NET, C#, MS SQL, and Bootstrap with distinction.",
-        'Developed "Campus Health Monitoring" dashboard using ASP.NET MVC and MS SQL—enabled real-time data visualization for 500+ users.',
-        "Implemented responsive UI components with Bootstrap and jQuery, ensuring cross-browser compatibility and mobile responsiveness.",
-        "Designed and optimized database schemas in MS SQL Server, improving query performance by 40% for reporting modules.",
-        "Collaborated with senior developers on code reviews and debugging, gaining hands-on experience with enterprise development practices.",
+        "Supported end-to-end feature lifecycle from research → development → go-live.",
+        "Managed release communication & product marketing alignment.",
+        "Developed a database of 1,000+ financial reports for product decision-making.",
       ],
     },
   ],
 };
 
-const openSource = {
-  githubUserName: "fineanmol",
-  githubConvertedToken: import.meta.env.VITE_GITHUB_TOKEN || "",
-  showGithubProfile: true,
-  display: true,
-};
-
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "STARTUPS AND ENTERPRISE PROJECTS I'VE CONTRIBUTED TO",
+  title: "Key Product Contributions",
+  subtitle: "Impact Across B2B SaaS & Fintech",
   projects: [
     {
-      projectName: "KNIME Analytics Platform Frontend",
-      projectDesc:
-        "Designed and optimized the Workflow Canvas and Sidebar components in KNIME AP's web documentation. Improved rendering speed by 30% and increased test coverage to 95%.",
-      footerLink: [
-        {
-          name: "View KNIME Frontend Repo",
-          url: "https://github.com/knime/knime-frontend",
-        },
-      ],
+      projectName: "SaaS Product Feature Expansion",
+      projectDesc: "Identified 11+ new feature opportunities through market analysis, boosting roadmap clarity and reducing product risk.",
+      footerLink: [],
     },
     {
-      projectName: "Shaadi.com UI Modernization",
-      projectDesc:
-        "Led the migration from JavaScript to TypeScript + Next.js for Shaadi.com's core user flows. Reduced page load time by 40% and decreased bug count by 50%.",
-      footerLink: [
-        {
-          name: "Read Case Study",
-          url: "https://medium.com/@fineanmol/shaadi-ui-migration-case-study",
-        },
-      ],
+      projectName: "Experimentation & Funnel Optimization",
+      projectDesc: "Designed and executed A/B tests that improved adoption, engagement, and usability metrics across product modules.",
+      footerLink: [],
     },
     {
-      image: tfb,
-      projectName: "TheFlyingBasket",
-      projectDesc:
-        "An online portal offering affordable, chemical-free groceries and personal care products delivered to your doorstep.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.facebook.com/theflyingbasket",
-        },
-      ],
-    },
-    {
-      image: mirai,
-      projectName: "Mirai Vizion",
-      projectDesc:
-        "An AI-based advertising platform enabling businesses to reach global audiences effortlessly.",
-      footerLink: [
-        {
-          name: "Visit Mirai Vizion",
-          url: "https://mirai-vizion.vercel.app/",
-        },
-      ],
-    },
-    {
-      image: hindcon,
-      projectName: "Hindcon.com",
-      projectDesc:
-        "An online portal providing affordable chemicals for home and industrial use, with doorstep delivery.",
-      footerLink: [
-        {
-          name: "Visit Hindcon Chemicals",
-          url: "https://hindcon.com/",
-        },
-      ],
-    },
+      projectName: "Financial Data Intelligence Platform",
+      projectDesc: "Led data accuracy and reporting workflows for 1,000+ company financial documents used in investment insights.",
+      footerLink: [],
+    }
   ],
   display: true,
 };
 
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle:
-    "Awards, Hackathons, and Certifications that showcase my contributions and skills.",
+  subtitle: "Recognitions that showcase my product mindset and leadership.",
   achievementsCards: [
     {
-      title: "Rockstar of the Month (Shaadi.com)",
-      subtitle:
-        "Awarded for exceptional code quality maintenance and resolving 50+ critical bugs within record time.",
-      image: Rockstar,
-      footerLink: [
-        {
-          name: "Nomination Details",
-          url: "https://media.licdn.com/dms/image/v2/C4D2DAQHEFonWBeVq4A/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1676985317978?e=1749484800&v=beta&t=0_1OSHNTYWJEqKD4zOzesGqaxLpHBcUN3UQkemc-bjE",
-        },
-        {
-          name: "View Certificate",
-          url: "https://drive.google.com/file/d/1WixNhIn6Chp8IlOQc_ynbSSt3dH3ScRs/view?usp=sharing",
-        },
-      ],
+      title: "McKinsey Forward Program",
+      subtitle: "Selected for a competitive global program focused on problem-solving, adaptability, communication & leadership.",
+      image: "",
+      footerLink: [],
     },
     {
-      title: "Bronze Medalist (G.U.)",
-      subtitle:
-        "Awarded Bronze Medal for ranking in the top 1% of the Computer Science program at Galgotias University.",
-      image: medal,
-      footerLink: [
-        {
-          name: "View Medal",
-          url: "https://www.linkedin.com/posts/fineanmol_medal-academicexcellence-medalist-activity-6744668235779645440-f-5i",
-        },
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1KvFd_AFWmurTjPyKxSM5r0RWOgZPx-3d/view?usp=sharing",
-        },
-      ],
+      title: "Featured in Zine Magazine",
+      subtitle: "Recognized as a versatile team player and 'Alumni of the Month'.",
+      image: "",
+      footerLink: [],
     },
     {
-      title: "Hacktoberfest Open Source Contributor",
-      subtitle:
-        "Recognized by DigitalOcean from 2019 to 2022 for consistent contributions to open-source projects during Hacktoberfest.",
-      image: digitalocean,
-      footerLink: [
-        {
-          name: "Swags",
-          url: "https://www.linkedin.com/posts/fineanmol_hacktoberfest-hacktoberfest2020-opensource-activity-6769234540062916608-ih0S",
-        },
-        {
-          name: "Rewards",
-          url: "https://www.linkedin.com/posts/fineanmol_hacktoberfest-hacktoberfest2020-opensource-activity-6769234540062916608-ih0S",
-        },
-      ],
-    },
-    {
-      title: "IBM Quantum Business Badge",
-      subtitle:
-        "Earned for leveraging quantum computing technology to propose innovative business solutions.",
-      image: ibm,
-      footerLink: [
-        {
-          name: "Badge Details",
-          url: "https://www.linkedin.com/posts/fineanmol_infosys-ibm-ibmquantum-activity-6789256112379105280-GtqI",
-        },
-      ],
-    },
+      title: "AI for Product Management",
+      subtitle: "Gained hands-on experience in generative AI, predictive analytics, and LLM-based product workflows.",
+      image: "",
+      footerLink: [],
+    }
   ],
   display: true,
-};
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "Sharing insights on Web Development, Data Science, and best practices.",
-  blogs: [
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_git-developer-softwaredeveloper-activity-6838040772248428544-OaW7",
-      title: "Git commands",
-      description:
-        "Awesome notes on #git command by Tomomi Imura ( Creative Idea💡)...",
-    },
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_docker-activity-6857287152917626881-wwWJ",
-      title: "What is Docker?",
-      description: "",
-    },
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_kubernetes-kubernetes-kubernetessecurity-activity-6860672331719745536-mbUr",
-      title: "What is Kubernetes?",
-      description: "",
-    },
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_devops-devopscommunity-devops-activity-6861596540230799361-TkdW",
-      title: "What is DevOps?",
-      description: "",
-    },
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_cloudcomputing-cloud-cloudgovernance-activity-6866967266261565440-vEq6",
-      title: "What is Cloud Computing?",
-      description: "",
-    },
-    {
-      url: "https://www.linkedin.com/posts/fineanmol_api-apiintegration-apimanagement-activity-6869510567439204352-RGtI",
-      title: "What is API?",
-      description: "",
-    },
-  ],
-  display: true,
-};
-
-const talkSection = {
-  title: "Talks & Workshops",
-  subtitle: emoji(
-    "I've shared knowledge on Full-Stack Development, Data Science, and Best Practices 🎙️"
-  ),
-  talks: [
-    {
-      title: "Refactoring Legacy Frontends to TypeScript",
-      subtitle: "Internal workshop at Shaadi.com, 2023",
-      slides_url: "https://bit.ly/shaadi-refactor-slides",
-      event_url:
-        "https://www.linkedin.com/posts/fineanmol_refactoring-legacy-frontends-activity-123456",
-    },
-    {
-      title: "Building Real-Time Data Pipelines on GCP",
-      subtitle: "Guest Lecture at IU Berlin, 2024",
-      slides_url: "https://bit.ly/iu-gcp-pipelines",
-      event_url: "https://www.youtube.com/watch?v=abcdefg",
-    },
-  ],
-  display: false,
-};
-
-const podcastSection = {
-  title: emoji("Podcast Pending🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  podcast: [
-    // 'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
-  ],
-  display: false,
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi! My inbox is always open.",
-  number: "+49 155 1020 0497 (Berlin)",
-  emailAddress: "anmol.agarwal2004@yahoo.com",
-};
-
-const twitterDetails = {
-  userName: "fineanmol",
-  display: false,
+  subtitle: "Let’s discuss product, strategy, or your next big idea.",
+  number: "+49 155 1020 3327 (Berlin)",
+  emailAddress: "ch.sakshiasb@gmail.com",
 };
 
 export {
@@ -519,14 +192,8 @@ export {
   socialMediaLinks,
   skillsSection,
   educationInfo,
-  techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
-  twitterDetails,
 };
