@@ -1,6 +1,6 @@
 # Sakshi Chaudhary's Portfolio
 
-Welcome to the repository for **Sakshi Chaudhary's Product Management Portfolio**. This project showcases my work, product expertise, achievements, and professional journey across B2B SaaS and Fintech. It is built using modern web development technologies and is hosted on GitHub Pages.
+Welcome to the repository for **Sakshi Chaudhary's Product Management Portfolio**. This project showcases my work, product expertise, achievements, and professional journey across B2B SaaS and Fintech, e-commerce, EdTech. It is built using modern web development technologies and is hosted on GitHub Pages.
 
 ## Project Overview
 
