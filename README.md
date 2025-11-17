@@ -1,61 +1,61 @@
-# Anmol Agarwal's Portfolio
+# Sakshi Chaudhary's Portfolio
 
-Welcome to the repository for Anmol Agarwal's personal portfolio. This project showcases my work, skills, and achievements. It is built using modern web development technologies and is hosted on GitHub Pages.
+Welcome to the repository for **Sakshi Chaudhary's Product Management Portfolio**. This project showcases my work, product expertise, achievements, and professional journey across B2B SaaS and Fintech. It is built using modern web development technologies and is hosted on GitHub Pages.
 
 ## Project Overview
 
-This portfolio is designed to provide a comprehensive overview of my professional profile, including:
+This portfolio provides a comprehensive overview of my professional profile, including:
 
-- **Personal Introduction**: A brief introduction about myself and my career objectives.
-- **Skills**: A detailed list of my technical skills and proficiencies.
-- **Projects**: Highlights of notable projects I've worked on.
-- **Experience**: An overview of my professional experience.
-- **Education**: Information about my academic background.
-- **Achievements and Certifications**: A showcase of my achievements and certifications.
-- **Contact Information**: Ways to get in touch with me.
+* **Personal Introduction**: A summary of who I am and my product philosophy.
+* **Skills & Tools**: Key product, analytical, and technical skills I use to build data‑driven products.
+* **Projects & Product Contributions**: Highlights of impactful product initiatives and research.
+* **Experience**: My journey across Product Manager, APM, and PM internships.
+* **Education**: Academic background in International Management and Business Administration.
+* **Achievements & Certifications**: Recognitions, global programs, and product certifications.
+* **Contact Information**: Ways to reach me for opportunities or collaboration.
 
-You can view the live portfolio at [fineanmol.github.io](https://fineanmol.github.io/).
+You can view the live portfolio at: **(link will be added once deployed)**
 
 ## Features
 
-- **Responsive Design**: The portfolio is fully responsive and works well on all device sizes.
-- **Interactive UI**: Built with React, providing a dynamic and interactive user experience.
-- **GraphQL Integration**: Uses GraphQL to fetch data from GitHub.
-- **Lottie Animations**: Smooth animations to enhance the visual appeal.
-- **SEO Friendly**: Proper use of meta tags for better SEO.
+* **Responsive Design**: Works seamlessly across devices.
+* **Interactive UI**: Built with React to offer a dynamic user experience.
+* **GraphQL Integration (Optional)**: Can be used to fetch GitHub or analytics data.
+* **Lottie Animations**: Smooth animations enhancing visual appeal.
+* **SEO Friendly**: Meta tags optimized for visibility and reach.
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
-- **Apollo Client**: A comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
-- **GraphQL**: A query language for your API.
-- **Lottie**: A library for parsing Adobe After Effects animations exported as JSON with Bodymovin.
-- **CSS**: For styling the components.
-- **Font Awesome**: For icons.
-- **GitHub Pages**: For hosting the portfolio.
+* **React** – Interactive UI development
+* **Apollo Client (optional)** – State management & GraphQL data fetching
+* **GraphQL** – Querying API data
+* **Lottie** – Bodymovin JSON-based animations
+* **CSS** – Styling and layout
+* **Font Awesome** – Icons
+* **GitHub Pages** – Hosting and deployment
 
 ## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Ensure the following are installed on your system:
 
-- Node.js
-- npm (Node Package Manager)
-- Git
+* **Node.js**
+* **npm** (Node Package Manager)
+* **Git**
 
 ### Installation
 
 1. **Clone the repository:**
 
 ```sh
-git clone https://github.com/fineanmol/fineanmol.github.io.git
+git clone <your-portfolio-repo-link>
 ```
 
 2. **Navigate to the project directory:**
 
 ```sh
-cd fineanmol.github.io
+cd <your-portfolio-folder>
 ```
 
 3. **Install dependencies:**
@@ -66,33 +66,31 @@ npm install
 
 ### Running the Project
 
-To start the development server, run:
+Start the development server:
 
 ```sh
 npm start
 ```
 
-The application will be available at `http://localhost:3000`.
+Your application runs at `http://localhost:3000`.
 
 ### Building for Production
-
-To create a production build, run:
 
 ```sh
 npm run build
 ```
 
-This will create an optimized build of the application in the `build` directory.
+Generates an optimized production build in the `build/` directory.
 
 ### Deploying to GitHub Pages
 
-1. **Ensure the `homepage` field in `package.json` is set correctly:**
+1. Set the correct homepage URL in `package.json`:
 
 ```json
-"homepage": "https://fineanmol.github.io/"
+"homepage": "https://your-username.github.io/"
 ```
 
-2. **Deploy the application:**
+2. Deploy:
 
 ```sh
 npm run deploy
@@ -100,30 +98,30 @@ npm run deploy
 
 ## Project Structure
 
-- **public/**: Contains static files and the HTML template.
-- **src/**: Contains the source code of the application.
-  - **assets/**: Images, fonts, and other assets.
-  - **components/**: Reusable React components.
-  - **containers/**: Higher-level components that contain other components.
-  - **contexts/**: React context providers.
-  - **portfolio.js**: Data file containing the portfolio content.
-  - **index.js**: Entry point of the application.
-  - **index.css**: Global styles for the application.
+* **public/** – Static assets & HTML template
+* **src/** – Application source code
+
+  * **assets/** – Images & media
+  * **components/** – Reusable components
+  * **containers/** – UI sections
+  * **contexts/** – Context providers
+  * **portfolio.js** – Portfolio content configuration
+  * **index.js** – App entry point
+  * **index.css** – Global styles
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact me at:
+If you'd like to connect, collaborate, or discuss opportunities:
 
-<!-- **Email**: anmol.agarwal2004@yahoo.com -->
-- **LinkedIn**: [Anmol Agarwal](https://www.linkedin.com/in/fineanmol/)
-- **GitHub**: [fineanmol](https://github.com/fineanmol)
+* **Email**: [ch.sakshiasb@gmail.com](mailto:ch.sakshiasb@gmail.com)
+* **LinkedIn**: [Sakshi Chaudhary](https://www.linkedin.com/in/fabsakshi/)
 
-Thank you for visiting my portfolio!
+Thank you for visiting my portfolio! 🚀
